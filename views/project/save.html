@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>wincomservices-labdev</title>
+	<meta charset="utf-8" />
+	<meta content="text/html" />
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+    <nav class="nav-bar" role="navigation">
+      <div id ="top-menu" class="container-fluid active">
+          <ul class="nav navbar-nav pull-right">        
+            <li>
+              <a href="#">
+              <i class="glyphicon glyphicon-user"></i>
+              Disconect </a>
+            </li>
+              
+          </ul>
+      </div>      
+  </nav>
+    <div class="row profile">
+      <div class="col-md-3">
+      <div class="profile-sidebar">
+        <!-- SIDEBAR MENU -->
+        <div class="profile-usermenu">
+          <ul class="nav">
+            <li class="active">
+              <a href="#">
+              <i class="glyphicon glyphicon-home"></i>
+              Projects </a>
+            </li>
+            <li>
+              <a href="#">
+              <i class="glyphicon glyphicon-user"></i>
+              Users </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+              <i class="glyphicon glyphicon-ok"></i>
+              Tasks </a>
+            </li>
+            <li>
+              <a href="#">
+              <i class="glyphicon glyphicon-flag"></i>
+              Help </a>
+            </li>
+          </ul>
+        </div>
+        <!-- END MENU -->
+      </div>
+    </div>
+    <div class="col-md-9">
+      <form class="form-horizontal" role="form">
+                <h2>Add a new project</h2>
+                <div class="form-group">
+                    <label for="projectName" class="col-sm-3 control-label">Name</label>
+                    <div class="col-sm-9">
+                        <input type="text" id="projectName" name="name" placeholder="Project Name" class="form-control" autofocus>
+                        <span class="help-block">This name must different of all other project name.</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="url" class="col-sm-3 control-label">Url</label>
+                    <div class="col-sm-9">
+                        <input type="url" id="url" name="url" placeholder="Project Url" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="col-sm-3 control-label">Description</label>
+                    <div class="col-sm-9">
+                        <textarea id="description" name="description" placeholder="Project Description" class="form-control" rows="5"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="endDate" class="col-sm-3 control-label">Dead Line</label>
+                    <div class="col-sm-9">
+                        <input type="date" name="dead_line" id="endDate" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-9 col-sm-offset-3">
+                        <span class="pull-right">
+                          <button type="reset" class="btn btn-default">Cancel</button>
+                          <button type="submit" class="btn btn-primary">Create</button>
+                        </span>
+                    </div>
+                </div>
+            </form> <!-- /form -->
+    </div>
+    </div>
+            
+  </div> <!-- ./container -->
+</body>
+</html>

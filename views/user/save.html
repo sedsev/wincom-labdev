@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>wincomservices-labdev</title>
+  <meta charset="utf-8" />
+  <meta content="text/html" />
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <nav class="nav-bar" role="navigation">
+      <div id ="top-menu" class="container-fluid active">
+          <ul class="nav navbar-nav pull-right">        
+            <li>
+              <a href="#">
+              <i class="glyphicon glyphicon-user"></i>
+              Disconect </a>
+            </li>
+              
+          </ul>
+      </div>      
+  </nav>
+    <div class="row profile">
+      <div class="col-md-3">
+      <div class="profile-sidebar">
+        <!-- SIDEBAR MENU -->
+        <div class="profile-usermenu">
+          <ul class="nav">
+            <li class="active">
+              <a href="#">
+              <i class="glyphicon glyphicon-home"></i>
+              Projects </a>
+            </li>
+            <li>
+              <a href="#">
+              <i class="glyphicon glyphicon-user"></i>
+              Users </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+              <i class="glyphicon glyphicon-ok"></i>
+              Tasks </a>
+            </li>
+            <li>
+              <a href="#">
+              <i class="glyphicon glyphicon-flag"></i>
+              Help </a>
+            </li>
+          </ul>
+        </div>
+        <!-- END MENU -->
+      </div>
+    </div>
+    <div class="col-md-9">
+      <form class="form-horizontal" role="form">
+                <h2>Add a new actor</h2>
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-3 control-label" for="fn">First name</label>  
+                  <div class="col-md-9">
+                  <input id="fn" name="fn" type="text" placeholder="first name" class="form-control" required="true" autofocus>
+                    
+                  </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-3 control-label" for="ln">Last name</label>  
+                  <div class="col-md-9">
+                  <input id="ln" name="ln" type="text" placeholder="last name" class="form-control" required="true">
+                    
+                  </div>
+                </div>
+
+                <!-- Select Basic -->
+                <div class="form-group">
+                  <label class="col-md-3 control-label" for="selectbasic">Gender</label>
+                  <div class="col-md-9">
+                    <select id="selectbasic" name="selectbasic" class="form-control">
+                      <option>Male</option>
+                      <option>Female</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-3 control-label" for="email">Email</label>  
+                  <div class="col-md-9">
+                  <input id="email" name="email" type="text" placeholder="Email" class="form-control" required="">
+                    
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-md-3 control-label" for="phone">Phone Number</label>  
+                  <div class="col-md-9">
+                  <input id="phone" name="phone_number" type="tel" placeholder="Phone Number" class="form-control" required="">
+                    
+                  </div>
+                </div>
+            </form> <!-- /form -->
+    </div>
+    </div>
+            
+  </div> <!-- ./container -->
+</body>
+</html>
